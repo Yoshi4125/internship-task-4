@@ -1,0 +1,66 @@
+# 2️ Print numbers from 1 to 100 using for loop
+print("Numbers from 1 to 100:")
+for i in range(1, 101):
+    print(i, end=" ")
+print("\n")
+
+
+# 3️ Countdown timer using while loop
+print("Countdown:")
+count = 5
+while count > 0:
+    print(count)
+    count -= 1
+print("Go!\n")
+
+
+# 4️ Using break and continue
+print("Break and Continue example:")
+for i in range(1, 11):
+    if i == 5:
+        continue   # skip 5
+    if i == 8:
+        break      # stop at 8
+    print(i)
+print()
+
+
+# 5️ Iterate over string characters
+name = "Python"
+print("Characters in string:")
+for ch in name:
+    print(ch)
+print()
+
+
+# 6️ Multiplication table
+num = 5
+print("Multiplication Table of 5:")
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+print()
+
+
+# 7️ Using range with steps
+print("Even numbers from 2 to 20:")
+for i in range(2, 21, 2):
+    print(i, end=" ")
+print("\n")
+
+
+# 8️ Loop with conditions
+print("Numbers divisible by 3:")
+for i in range(1, 21):
+    if i % 3 == 0:
+        print(i, end=" ")
+print("\n")
+
+
+# 9️ Real-world example: Checking pass/fail
+marks = [35, 78, 90, 45, 22]
+print("Pass/Fail Result:")
+for m in marks:
+    if m >= 40:
+        print(m, "→ Pass")
+    else:
+        print(m, "→ Fail")
